@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    overflow: auto;
+    padding-top: 1.5rem;
+}
+
+.header {
+    height: 2rem;
+    background: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.87);
+}
+
+.title-img {
+    background: url('http://nachoparietti.com/content/images/2016/06/HerbertJamesDraper-Ulysses-and-the-Sirens-1909_flipped.jpg') no-repeat 30%;
+    position: relative;
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 2rem;
+}
+
+.title-img > .hightlight {
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.title-img > .headline {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding-top: 2.5rem;
+}
+
+.title-img > .headline > h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.87);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn {
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-small {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+.alert {
+    border-radius: 2px;
+}
+
+.form-control {
+    border-radius: 2px;
+}
+
+div.container {
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.subheading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.82);
+}
